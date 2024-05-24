@@ -2,6 +2,7 @@
  --yellow: #FFE66D;
  --purple: #6F2DBD;
  --blue: #60AFFF;
+ --pink: #FF499E;
 }
 
 html, body {
@@ -25,6 +26,7 @@ h2, h3{
     color: var(--blue);
 }
 h4 {
+    color: var(--pink);
     margin: 0;
 }
 
@@ -34,8 +36,10 @@ h4 {
 }
 
 .pure-button-primary, .pure-button-selected, a.pure-button-primary, a.pure-button-selected {
-    background-color: var(--purple);
-    color: white;
+    background-color: var(--yellow);
+    color: black;
+    border: 1px solid black;
+    font-weight: bold;
 }
 .pure-button-primary:hover {
     color: white;
