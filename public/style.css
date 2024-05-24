@@ -1,0 +1,42 @@
+:root {
+ --yellow: #FFE66D;
+ --purple: #6F2DBD;
+ --blue: #60AFFF;
+}
+
+html, body {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+a {
+    color: var(--blue);
+}
+
+a:hover {
+    color: var(--purple);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: ABeeZee, Arial, Helvetica, sans-serif;
+    color: var(--purple);
+}
+h2, h3{
+    color: var(--blue);
+}
+h4 {
+    margin: 0;
+}
+
+.header-img {
+    width: 100%;
+    margin-top: 2em;
+}
+
+.pure-button-primary, .pure-button-selected, a.pure-button-primary, a.pure-button-selected {
+    background-color: var(--purple);
+    color: white;
+}
+.pure-button-primary:hover {
+    color: white;
+}

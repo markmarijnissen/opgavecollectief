@@ -1,0 +1,12 @@
+{
+  "hosting": {
+    "target": "opgavecollectief",
+    "public": "public",
+    
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

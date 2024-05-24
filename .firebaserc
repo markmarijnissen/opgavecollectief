@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "markmarijnissen"
+  },
+  "targets": {
+    "markmarijnissen": {
+      "hosting": {
+        "opgavecollectief": [
+          "opgavecollectief"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
