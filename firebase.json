@@ -1,8 +1,7 @@
 {
   "hosting": {
     "target": "opgavecollectief",
-    "public": "public",
-    
+    "public": ".output/public",
     "ignore": [
       "firebase.json",
       "**/.*",

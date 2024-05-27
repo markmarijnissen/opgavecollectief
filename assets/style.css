@@ -10,6 +10,10 @@ html, body {
     font-size: 16px;
 }
 
+img {
+    width: 100%;
+}
+
 a {
     color: var(--blue);
 }
@@ -43,4 +47,8 @@ h4 {
 }
 .pure-button-primary:hover {
     color: white;
+}
+
+.container {
+    margin: 1em;
 }
